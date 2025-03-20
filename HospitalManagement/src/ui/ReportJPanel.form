@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="d7" green="d7" red="e7" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                              <Component id="lblPatientId" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="txtPatientID" min="-2" pref="87" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="lblName" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblGender" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="txtName" linkSize="1" pref="86" max="32767" attributes="0"/>
+                                  <Component id="txtGender" linkSize="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                      <Component id="lblWebsiteUrl" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblSSN" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="24" pref="24" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="txtWebsiteUrl" linkSize="1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblOccupation" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="txtSSN" linkSize="1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jSeparator1" min="-2" pref="50" max="-2" attributes="0"/>
+                                          <Component id="lblEducation" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtEducation" linkSize="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtOccupation" linkSize="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="lblCitizenship" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblEmail" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="txtEmail" linkSize="1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="lblDOB" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="txtCitizenship" linkSize="1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="lblAge" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                              <Component id="txtDOB" linkSize="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="txtAge" linkSize="1" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                                              <Component id="lblDoctorId" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="txtDoctorId" min="-2" pref="87" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="lblCorporateId" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="txtCorporateId" min="-2" pref="87" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="lblSpecialzation" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtSpecialization" min="-2" pref="87" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="lblPrimaryDoctor" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblAddress" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblCity" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblDoctorName" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="txtAddress" min="-2" pref="87" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="1" attributes="0">
+                                                          <Group type="102" alignment="1" attributes="0">
+                                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                                  <Component id="lblCountry" min="-2" max="-2" attributes="0"/>
+                                                                  <Group type="102" alignment="1" attributes="0">
+                                                                      <Component id="lblLastVisit" min="-2" max="-2" attributes="0"/>
+                                                                      <EmptySpace max="-2" attributes="0"/>
+                                                                      <Component id="txtLastVisit" min="-2" pref="87" max="-2" attributes="0"/>
+                                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                                      <Component id="lblAllergies" min="-2" max="-2" attributes="0"/>
+                                                                  </Group>
+                                                              </Group>
+                                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="txtAllergies" min="-2" pref="87" max="-2" attributes="0"/>
+                                                                  <Component id="txtCountry" min="-2" pref="87" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                          <Group type="102" alignment="1" attributes="0">
+                                                              <Component id="lblPremium" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Component id="txtPremium" min="-2" pref="87" max="-2" attributes="0"/>
+                                                              <EmptySpace min="-2" pref="174" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                                  <Component id="txtQualification" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                      <Component id="lblBenefits" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                                      <Component id="jScrollPane1" min="-2" pref="210" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="lblMedication" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="txtMedication" min="-2" pref="87" max="-2" attributes="0"/>
+                                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <Group type="103" groupAlignment="1" attributes="0">
+                                                          <Group type="102" attributes="0">
+                                                              <Component id="txtCity" min="-2" pref="87" max="-2" attributes="0"/>
+                                                              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                                                              <Component id="lblState" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <Group type="102" attributes="0">
+                                                              <Component id="txtPrimaryDoctor" min="-2" pref="87" max="-2" attributes="0"/>
+                                                              <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="txtState" min="-2" pref="87" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="txtDoctorName" min="-2" pref="87" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                                                      <Component id="lblExperience" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                                      <Component id="txtExperience" min="-2" pref="87" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="207" max="-2" attributes="0"/>
+                                                      <Component id="lblDoctorLicenseNumber" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="txtDoctorLicenseNumber" min="-2" pref="87" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="lblDeductable" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="txtDeductable" min="-2" pref="87" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="lblQualification" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="283" max="-2" attributes="0"/>
+                                              <Component id="lblOfficeAddress" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="txtOfficeAddress" min="-2" pref="87" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="0" pref="378" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblMedicalInformation" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblInsuranceTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblDriverTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblVehicleTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblAddressTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lblGPSLocation" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtGPSLocation" min="-2" pref="87" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="lblRegistrationNumber" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="txtRegistrationNumber" min="-2" pref="87" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="lblColor" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="lblLicenseNumber" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="txtLicenseNumber" linkSize="5" min="-2" pref="87" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="lblLicenseStatus" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtLicenseStatus" linkSize="5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="txtColor" min="-2" pref="87" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="lblModel" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="txtModel" min="-2" pref="87" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="lblManufacturedYear" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="txtManufacturedYear" min="-2" pref="87" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="33" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="txtPersonTitle" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="257" max="-2" attributes="0"/>
+                              <Component id="txtTitle" min="-2" pref="712" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblDoctorTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="txtTitle" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
+                      <Component id="txtPersonTitle" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtName" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSSN" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblSSN" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtEducation" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblEducation" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtEmail" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDOB" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDOB" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblGender" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtGender" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtWebsiteUrl" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblWebsiteUrl" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="lblOccupation" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtAge" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCitizenship" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCitizenship" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblAge" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="txtOccupation" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+              <Component id="lblAddressTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblGPSLocation" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtGPSLocation" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCity" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCity" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblState" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtState" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCountry" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCountry" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Component id="lblMedicalInformation" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblPatientId" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPrimaryDoctor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPatientID" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPrimaryDoctor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblLastVisit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtAllergies" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblAllergies" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMedication" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtLastVisit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtMedication" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="lblInsuranceTitle" min="-2" pref="17" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblCorporateId" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCorporateId" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPremium" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPremium" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDeductable" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDeductable" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblBenefits" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="lblDoctorTitle" min="-2" pref="17" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblDoctorId" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDoctorId" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDoctorName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDoctorName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDoctorLicenseNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblOfficeAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtExperience" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblExperience" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtOfficeAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDoctorLicenseNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblQualification" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtQualification" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblSpecialzation" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtSpecialization" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblVehicleTitle" min="-2" pref="17" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblColor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtRegistrationNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtColor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblModel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblManufacturedYear" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtModel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblRegistrationNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtManufacturedYear" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblDriverTitle" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtLicenseNumber" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblLicenseStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtLicenseStatus" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblLicenseNumber" min="-2" pref="17" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="54" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="57" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="txtTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Phosphate" size="36" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PATIENT REPORT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txtPersonTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Helvetica Neue" size="13" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Person Information :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAge">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Age :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSSN">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SSN :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblWebsiteUrl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Website URL :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEmail">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Email :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblOccupation">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Occupation :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblGender">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gender :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDOB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date of Birth :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCitizenship">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Citizenship :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEducation">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Education :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtName">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNameActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAge">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSSN">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtWebsiteUrl">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEmail">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtOccupation">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDOB">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtDOBActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCitizenship">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCitizenshipActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEducation">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAddressTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Helvetica Neue" size="13" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Address :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblGPSLocation">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="GPS Location :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCity">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="City :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblState">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="State :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCountry">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Country :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtGPSLocation">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtGPSLocationActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtGender">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCity">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCityActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtState">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCountry">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDriverTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Helvetica Neue" size="13" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Driver :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLicenseNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="License Number :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLicenseStatus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="License Status :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtLicenseNumber">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLicenseNumberActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtLicenseStatus">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMedicalInformation">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Helvetica Neue" size="13" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Medical Information :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPatientId">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Patient ID :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPrimaryDoctor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Primary Doctor :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLastVisit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Last Visit : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAllergies">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Allergies :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMedication">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="On Medication : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPatientID">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPatientIDActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPrimaryDoctor">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPrimaryDoctorActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAllergies">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtAllergiesActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtLastVisit">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLastVisitActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMedication">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMedicationActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInsuranceTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Helvetica Neue" size="13" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Insurance :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCorporateId">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Corporate ID :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDoctorId">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtDoctorIdActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAddress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPremium">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPremiumActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPremium">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Premium :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAddress">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtAddressActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDeductable">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Deductable :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDeductable">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtDeductableActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBenefits">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Benefits :"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="txtBenefits">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lblDoctorTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Helvetica Neue" size="13" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Doctor Information :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDoctorId">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Doctor ID :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDoctorName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDoctorLicenseNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="License Number :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblOfficeAddress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Office Address : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblExperience">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Experience :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQualification">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Edu. Qualification : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSpecialzation">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Specialization :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDoctorName">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtDoctorNameActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDoctorLicenseNumber">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtDoctorLicenseNumberActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtOfficeAddress">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtOfficeAddressActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtQualification">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtQualificationActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtExperience">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtExperienceActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSpecialization">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtSpecializationActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCorporateId">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCorporateIdActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblVehicleTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Helvetica Neue" size="13" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Vehicle Information :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRegistrationNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registration Number :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblColor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Color :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblModel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Model :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblManufacturedYear">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manufactured Year :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtRegistrationNumber">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtRegistrationNumberActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtColor">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtColorActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtManufacturedYear">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtManufacturedYearActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtModel">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtModelActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+  </SubComponents>
+</Form>

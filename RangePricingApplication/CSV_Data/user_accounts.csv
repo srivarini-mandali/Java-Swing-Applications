@@ -1,0 +1,19 @@
+username,password,person_id,role
+rushitha,password,rushitha,Admin
+srivarini,password,srivarini,Admin
+renuka,password,renuka,Admin
+mandali,password,mandali,Admin
+sales_user1,password,sales_user1,Sales
+sales_user2,password,sales_user2,Sales
+sales_user3,password,sales_user3,Sales
+sales_user4,password,sales_user4,Sales
+sales_user5,password,sales_user5,Sales
+sales_user6,password,sales_user6,Sales
+marketing_user1,password,marketing_user1,Marketing
+marketing_user2,password,marketing_user2,Marketing
+marketing_user3,password,marketing_user3,Marketing
+Davis H,password,davis,Customer
+Laura P,password,laura,Customer
+Jie S,password,jie,Customer
+Liam D,password,liam,Customer
+Jason K,password,jason,Customer

@@ -1,0 +1,11 @@
+marketName,channelType,productName,solutionPrice,targetPrice,solutionOrderList
+Teenagers,TV,Laptop Model X,1600,1800,0
+Teenagers,Internet,Monitor Model W,700,600,none
+Teenagers,Internet,Laptop Model X,2100,1800,5
+Undergrads,Internet,Laptop Model X,1550,1800,11
+Undergrads,Internet,Tablet Model Z,750,850,2
+Adult,TV,Scanner Model B,1400,950,9
+Adult,Radio,Scanner Model B,850,950,none
+Adult,TV,Tablet Model Z,1100,850,13
+Seniors,TV,Scanner Model B,900,950,4
+Seniors,Radio,Printer Model A,900,950,none
